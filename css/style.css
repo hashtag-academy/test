@@ -1,7 +1,6 @@
 .grid {
 	display: grid;
-    grid-template: 1fr 48px 1fr/1fr 48px 1fr;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .grid section {
