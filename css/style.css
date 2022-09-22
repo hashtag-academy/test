@@ -27,6 +27,8 @@
     overflow: hidden;
 }
 
+
+
 .slider-line .current-slide {
     visibility: visible;
     z-index: 1;
