@@ -19,7 +19,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #fff;
 }
 
 .slider-line {
@@ -68,4 +67,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     width: 112px;
+}
+
+.feed {
+    background: tomato url(../photo/startup-hero-bg.jpg) center / cover;
 }
