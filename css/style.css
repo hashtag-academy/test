@@ -5,7 +5,7 @@
 
 .grid section {
 	position: relative;
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
     height: 366px;
 }
@@ -40,15 +40,15 @@ h2 {
     padding: 9px 0;
     width: 100%;
     box-sizing: border-box;
-    color: #fff;
+    color: lightblue;
     text-align: center;
     text-transform: uppercase;
-    background-color: green;
+    background-color: blue;
 }
 
 .slide {
     position: absolute;
-    z-index: 0;
+    z-index: 3;
     top: -100%;
     left: 0;
     width: 100%;
