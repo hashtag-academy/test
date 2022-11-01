@@ -1,12 +1,11 @@
 .grid {
 	display: grid;
-    grid-template: 1fr 48px 1fr/1fr 48px 1fr;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .grid section {
 	position: relative;
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
     height: 366px;
 }
@@ -20,7 +19,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #fff;
 }
 
 .slider-line {
@@ -42,15 +40,15 @@ h2 {
     padding: 9px 0;
     width: 100%;
     box-sizing: border-box;
-    color: #fff;
+    color: lightblue;
     text-align: center;
     text-transform: uppercase;
-    background-color: #003b95;
+    background-color: blue;
 }
 
 .slide {
     position: absolute;
-    z-index: 0;
+    z-index: 3;
     top: -100%;
     left: 0;
     width: 100%;
@@ -69,4 +67,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     width: 112px;
+}
+
+.feed {
+    background: tomato url(../photo/startup-hero-bg.jpg) center / cover;
 }
